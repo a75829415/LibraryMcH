@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Namespaces>
+  <Namespace name="LinearList">
+    <Struct name="LNode">
+      <Struct name="DLNode"></Struct>
+    </Struct>
+    
+    <Class name="LinearListBase">
+      <Class name="NonRestrictiveLinearListBase">
+        <Class name="SequenceList"></Class>
+        <Class name="LinkedListBase">
+          <Class name="SinglyLinkedListBase">
+            <Class name="SinglyLinkedListWithHead">
+              <Class name="CircularSinglyLinkedListWithHead"></Class>
+            </Class>
+            <Class name="SinglyLinkedListWithoutHead">
+              <Class name="CircularSinglyLinkedListWithoutHead"></Class>
+            </Class>
+          </Class>
+          <Class name="DoublyLinkedListBase">
+            <Class name="DoublyLinkedListWithHead">
+              <Class name="CircularDoublyLinkedListWithHead"></Class>
+            </Class>
+            <Class name="DoublyLinkedListWithoutHead">
+              <Class name="CircularDoublyLinkedListWithoutHead"></Class>
+            </Class>
+          </Class>
+        </Class>
+      </Class>
+      <Class name="RestrictiveLinearListBase">
+        <Class name="StackBase">
+          <Class name="SequenceStack"></Class>
+          <Class name="LinkedStack"></Class>
+        </Class>
+        <Class name="QueueBase">
+          <Class name="SequenceQueue"></Class>
+          <Class name="LinkedQueue"></Class>
+        </Class>
+      </Class>
+    </Class>
+  </Namespace>
+</Namespaces>
