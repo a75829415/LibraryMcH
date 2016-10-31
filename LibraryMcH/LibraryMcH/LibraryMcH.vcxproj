@@ -114,6 +114,7 @@
     <ClInclude Include="CircularSinglyLinkedListWithoutHead.h" />
     <ClInclude Include="CircularSinglyLinkedListWithHead.h" />
     <ClInclude Include="DoublyLinkedListBase.h" />
+    <ClInclude Include="DoublyLinkedListWithHead.h" />
     <ClInclude Include="DoublyLinkedListWithoutHead.h" />
     <ClInclude Include="Exceptions.h" />
     <ClInclude Include="LinearList.h" />

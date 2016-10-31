@@ -68,6 +68,9 @@
     <ClInclude Include="CircularDoublyLinkedListWithoutHead.h">
       <Filter>头文件\LinearList</Filter>
     </ClInclude>
+    <ClInclude Include="DoublyLinkedListWithHead.h">
+      <Filter>头文件\LinearList</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Xml Include="Hierarchy.xml">
